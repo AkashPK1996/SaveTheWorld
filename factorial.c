@@ -11,7 +11,7 @@ void main()
 {
 	int f, num, i;
 	printf("Enter a Number : ");
-	scanf("%d",num);
+	scanf("%d",&num);
 	f = fact(num);
-	printf("Factorial      : ");
+	printf("\nFactorial      : %d\n\n",f);
 }
